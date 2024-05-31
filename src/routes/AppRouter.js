@@ -1,23 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from '../pages/Home.js';
 import About from '../pages/About.js';
 import Projects from '../pages/Projects.js';
 import Skills from '../pages/Skills.js';
 import Contact from '../pages/Contact.js';
 
-function AppRouter() {
+export default function AppRouter() {
     return (
         <Router>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/projects" component={Projects} />
-                <Route path="/skills" component={Skills} />
-                <Route path="/contact" component={Contact} />
-            </Switch>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
         </Router>
     );
 }
-
-export default AppRouter;
