@@ -1,7 +1,9 @@
 npx create-react-app mi-portafolio
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-npm install tailwindcss
 npm install yarn
 yarn add react-router-dom
 yarn global add react-devtools
+
+yarn remove tailwindcss postcss autoprefixer
+
+yarn add bootstrap
+

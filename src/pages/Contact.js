@@ -7,12 +7,49 @@ function Contact() {
         <div>
             <Navbar />
             <main className="min-h-screen flex flex-col items-center justify-center p-4">
-                <h1 className="text-4xl font-bold mb-4">Contacto</h1>
-                <form className="flex flex-col items-center">
-                    <input type="text" placeholder="Nombre" className="mb-2 p-2 border border-gray-300 rounded" />
-                    <input type="email" placeholder="Email" className="mb-2 p-2 border border-gray-300 rounded" />
-                    <textarea placeholder="Mensaje" className="mb-2 p-2 border border-gray-300 rounded" rows="4"></textarea>
-                    <button type="submit" className="bg-blue-500 text-white p-2 rounded">Enviar</button>
+            <h2 className="mb-6">Contact Me</h2>
+                <form>
+                    <div className="mb-4">
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+                            Name
+                        </label>
+                        <input
+                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="name"
+                            type="text"
+                            placeholder="Your Name"
+                        />
+                    </div>
+                    <div className="mb-4">
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+                            Email
+                        </label>
+                        <input
+                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email"
+                            type="email"
+                            placeholder="Your Email"
+                        />
+                    </div>
+                    <div className="mb-6">
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+                            Message
+                        </label>
+                        <textarea
+                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="message"
+                            rows="5"
+                            placeholder="Your Message"
+                        ></textarea>
+                    </div>
+                    <div className="flex items-center justify-between">
+                        <button
+                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="button"
+                        >
+                            Send
+                        </button>
+                    </div>
                 </form>
             </main>
             <Footer />

@@ -1,0 +1,38 @@
+/*src/styles/home.css*/
+.home-container{
+    background-color: #040D1F;
+}
+
+.space{
+    height: 11vh;
+}
+
+header{
+    background-color: #061736;
+    border: 2px solid rgb(39, 39, 39);
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    .title{
+        text-align: center;
+        width: fit-content;
+        margin: 2em auto 0.5em auto;
+        z-index: 4;
+    }
+    .parrafo{
+        text-align: center;
+        width: fit-content;
+        z-index: 4;
+        margin: 0 auto 0 auto;
+        padding: 0;
+    }
+}
+
+.text-container{
+    width: 100%;
+}
+
+.tech{
+    width: 80%;
+    margin: 1em auto; 
+}

@@ -1,26 +1,34 @@
-import React from 'react';
-import Navbar from '../components/layout/Navbar.js';
-import Footer from '../components/layout/Footer.js';
-import AboutSection from '../components/sections/AboutSection.js';
-import ProjectsSection from '../components/sections/ProjectsSection.js';
-import SkillsSection from '../components/sections/SkillsSection.js';
-import ContactSection from '../components/sections/ContactSection.js';
+import React from "react";
+import Navbar from "../components/layout/Navbar.js";
+// import { importTechIcons } from "../utils/importTechIcons.js";
+
+// const techIcons = importTechIcons(require.context("../assets/tecnologias", false, /\.(png|jpe?g|svg)$/));
+
 
 function Home() {
     return (
-        <div>
+        <div className="home-container">
             <Navbar />
-            <header className="bg-blue-500 min-h-screen flex flex-col items-center justify-center text-white">
-                <h1 className="text-5xl font-bold">¡Bienvenido a mi Portafolio!</h1>
-                <p className="mt-4 text-xl">Desarrollado con React y Tailwind CSS</p>
+            <div className="space"></div>
+            <header className="flex flex-col">
+                <div className="text-container">
+                    <h1 className="title">Carlos Fernández González</h1>
+                    <p className="parrafo">
+                        Desarrollador Web Apasionado por la Tecnología
+                    </p>
+                </div>
+                <div className="tech">
+                    <h2>Tech.</h2>
+                    {/* <ul>
+                        {Object.keys(techIcons).map((key, index) => (
+                            <li className="tech-icons" key={index}>
+                                <img src={techIcons[key]} alt={key.split(".")[0]} />
+                            </li>
+                        ))}
+                    </ul> */}
+                </div>
             </header>
-            <main>
-                <AboutSection />
-                <ProjectsSection />
-                <SkillsSection />
-                <ContactSection />
-            </main>
-            <Footer />
+            <div className="space"></div>
         </div>
     );
 }

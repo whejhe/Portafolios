@@ -1,0 +1,38 @@
+Portafolios/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── ...
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.js
+│   │   ├── layout/
+│   │   │   ├── Navbar.js
+│   │   │   └── Footer.js
+│   │   └── sections/
+│   │       ├── TestimonialsSection.js
+|   |
+│   ├── pages/
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   │   ├── Skills.js
+│   │   └── Contact.js
+│   ├── routes/
+│   │   └── AppRouter.js
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── ...
+│   ├── utils/
+│   │   └── helpers.js
+│   ├── index.js
+│   └── index.css
+|   |-- output.css   
+|
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md

@@ -1,0 +1,39 @@
+nav{
+    position: sticky;
+    top: 0;
+    border-bottom: 3px solid  rgb(39, 39, 39);
+    background-color: #040E1B;
+    z-index: 5;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    ul{
+        width: 90%;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        color: whitesmoke;
+        gap: 1em;
+    }
+    li{
+        padding: 0.2em;
+        
+    }
+    li:hover{
+        transition-duration: 0.5s;
+        outline: 2px solid whitesmoke;
+    }
+    li a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    nav h1{
+        display: block;
+        width: 10%;
+        margin: 0;
+        text-align: center;
+    }
+}
