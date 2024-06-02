@@ -1,0 +1,19 @@
+.title-contact{
+    text-align: center;
+}
+
+form{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 2em;
+    width: 70%;
+    margin: auto;
+}
+
+.container-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    color: whitesmoke;
+}

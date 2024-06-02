@@ -18,10 +18,11 @@ function Projects() {
                 </ul>
                 <h3 className="text-2xl font-bold mt-8 mb-4">Páginas Estáticas</h3>
                 <div className="swiper-container">
+                <button>Prev</button>
                     <Swiper
                         className='list-projects'
-                        spaceBetween={50}
-                        slidesPerView={3}
+                        spaceBetween={10}
+                        slidesPerView={2}
                         navigation={true}
                     >
                         {imagesProjects.map((project, index) => (
@@ -34,6 +35,7 @@ function Projects() {
                             </SwiperSlide>
                         ))}
                     </Swiper>
+                <button>Next</button>
                 </div>
             </main>
             <div className='space'></div>

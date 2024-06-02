@@ -1,8 +1,17 @@
+.swiper-container{
+    display: flex;
+    border: 2px solid whitesmoke;
+    width: 90%;
+    margin: auto;
+}
+
 .article{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 10px 10px 10px;
     background-color: aliceblue;
+    height: 290px;
+    width: 400px;
 }
 .article:hover{
     outline: 2px solid rgb(66, 12, 12);
@@ -14,10 +23,15 @@
 .list-projects{
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
+    width: 80%;
 }
 
 .list-projects .images-projects{
-    width: 400px;
-    height: auto;
+    height: 240px;
+    width: 390px;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    display: block;
 }
