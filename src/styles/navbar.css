@@ -1,4 +1,4 @@
-nav{
+.nav-layout{
     position: sticky;
     top: 0;
     border-bottom: 3px solid  rgb(39, 39, 39);
@@ -6,34 +6,35 @@ nav{
     z-index: 5;
     height: 8vh;
     display: flex;
+    /* border: 2px solid white; */
+}
+
+.nav-layout .ul-nav{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: whitesmoke;
+    gap: 1em;
+    /* border: 2px solid whitesmoke; */
+    margin: auto 0 auto 0;
+    justify-content: left;
+}
+
+.nav-layout .link-nav:hover{
+    transition-duration: 0.5s;
+    outline: 2px solid whitesmoke;
+}
+.nav-layout .link-nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.nav-layout h1{
+    display: flex;
+    width: 10%;
+    justify-content: centers;
     align-items: center;
-    ul{
-        width: 90%;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        color: whitesmoke;
-        gap: 1em;
-    }
-    li{
-        padding: 0.2em;
-        
-    }
-    li:hover{
-        transition-duration: 0.5s;
-        outline: 2px solid whitesmoke;
-    }
-    li a{
-        text-decoration: none;
-        color: whitesmoke;
-        font-size: 1.2em;
-        font-weight: 600;
-    }
-    nav h1{
-        display: block;
-        width: 10%;
-        margin: 0;
-        text-align: center;
-    }
+    margin-top: 0.4em;
 }

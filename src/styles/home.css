@@ -5,6 +5,7 @@
 
 .space{
     height: 11vh;
+    background-color: #040D1F;
 }
 
 header{
@@ -32,7 +33,22 @@ header{
     width: 100%;
 }
 
-.tech{
+.tech-container{
     width: 80%;
     margin: 1em auto; 
+}
+.tech-container .icons-tech{
+    width: 80px;
+    height: auto;
+}
+
+.tech-container .list-tech{
+    padding-top: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    list-style-type: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }

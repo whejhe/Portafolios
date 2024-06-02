@@ -1,9 +1,6 @@
 import React from "react";
 import Navbar from "../components/layout/Navbar.js";
-// import { importTechIcons } from "../utils/importTechIcons.js";
-
-// const techIcons = importTechIcons(require.context("../assets/tecnologias", false, /\.(png|jpe?g|svg)$/));
-
+import techIcons from "../utils/importTechIcons.js";
 
 function Home() {
     return (
@@ -17,15 +14,15 @@ function Home() {
                         Desarrollador Web Apasionado por la Tecnología
                     </p>
                 </div>
-                <div className="tech">
+                <div className="tech-container">
                     <h2>Tech.</h2>
-                    {/* <ul>
-                        {Object.keys(techIcons).map((key, index) => (
-                            <li className="tech-icons" key={index}>
-                                <img src={techIcons[key]} alt={key.split(".")[0]} />
+                    <ul className="list-tech">
+                        {Object.keys(techIcons).map((icon, index) => (
+                            <li key={index}>
+                                <img className="icons-tech" src={techIcons[icon]} alt={icon.replace(/\.[^/.]+$/, "")} />
                             </li>
                         ))}
-                    </ul> */}
+                    </ul>
                 </div>
             </header>
             <div className="space"></div>

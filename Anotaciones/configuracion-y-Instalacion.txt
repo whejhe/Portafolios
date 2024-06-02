@@ -7,3 +7,5 @@ yarn remove tailwindcss postcss autoprefixer
 
 yarn add bootstrap
 
+slider:
+yarn add swiper

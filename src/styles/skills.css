@@ -1,0 +1,9 @@
+.list-skills{
+    width: 90%;
+    margin: auto;
+}
+
+.list-skills .item-skills{
+    color: whitesmoke;
+    list-style-type: circle;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../components/layout/Navbar.js';
-import Footer from '../components/layout/Footer.js';
 
 function Contact() {
     return (
         <div>
             <Navbar />
+            <div className='space'></div>
             <main className="min-h-screen flex flex-col items-center justify-center p-4">
             <h2 className="mb-6">Contact Me</h2>
                 <form>
@@ -52,7 +52,7 @@ function Contact() {
                     </div>
                 </form>
             </main>
-            <Footer />
+            <div className='space'></div>
         </div>
     );
 }
