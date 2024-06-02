@@ -4,6 +4,8 @@ yarn add react-router-dom
 yarn global add react-devtools
 
 yarn remove tailwindcss postcss autoprefixer
+yarn add i18next react-i18next
+
 
 yarn add bootstrap
 

@@ -1,6 +1,6 @@
 /*src/styles/home.css*/
 .home-container{
-    background-color: #040D1F;
+    /* background-color: #040D1F; */
 }
 
 .space{
@@ -10,6 +10,9 @@
 
 header{
     background-color: #061736;
+    /* background: -webkit-linear-gradient(to right, #061736, #211b64, #0f0c29);
+    background: linear-gradient(to right, #061736, #211b64, #0f0c29); */
+
     border: 2px solid rgb(39, 39, 39);
     width: 100%;
     margin: auto;
@@ -40,6 +43,10 @@ header{
 .tech-container .icons-tech{
     width: 80px;
     height: auto;
+}
+
+.tech-container .icons-tech:hover{
+    opacity: 0.5;
 }
 
 .tech-container .list-tech{

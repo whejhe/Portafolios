@@ -1,0 +1,123 @@
+INTRODUCCION AL DISEÑO WEB
+https://hackdesign.org/lessons
+https://www.webdesignerdepot.com/2013/12/infographic-flat-design-vs-skeuomorphism/
+
+TIPOGRAFIAS
+Google Fonts - https://fonts.google.com/
+http://www.fontsquirrel.com
+http://www.creativebloq.com/graphic-design-tips/best-free-fonts-for-designers-1233380
+http://fontpair.co
+https://practicaltypography.com/typography-in-ten-minutes.html
+http://www.typogui.de
+http://femmebot.github.io/google-type/
+1001Fonts
+
+COLORES
+Flatuicolors: http://flatuicolors.com
+Variaciones de Colores: http://www.0to255.com
+Adobe Color CC: https://color.adobe.com/create/color-wheel/
+Paletton: http://paletton.com
+Uigradients: https://uigradients.com
+MaterialCSS: http://materializecss.com/color.html
+Coolors.co: https://coolors.co/app
+ColorHexa: https://www.colorhexa.com
+SchemeColor. Sitio Web para obtener combinación de colores
+
+Para aprender más de Teorías de colores:
+https://designwizard.com/blog/color-theory/
+
+Gradientes:
+ColorSpace: https://mycolor.space/
+CSSGradients: https://cssgradient.io/
+
+IMAGENES
+Pexels: https://www.pexels.com/es-es/
+pikwizard: https://pikwizard.com/
+theStocks: http://thestocks.im
+Unsplash: https://unsplash.com
+Foodiesfeed: https://www.foodiesfeed.com
+Imcreator Free: http://www.imcreator.com/free
+The patter Library: http://thepatternlibrary.com
+Subttle Pattern: https://www.toptal.com/designers/subtlepatterns/
+
+VIDEO
+Pikwizad: https://pikwizard.com/video
+Mazwai: http://mazwai.com
+Pexels video: https://videos.pexels.com
+Videvo: https://www.videvo.net/
+Clip Canvas - Free Clips: https://www.clipcanvas.com/free-footage
+Vidsplay: https://www.vidsplay.com
+Videzzy: https://www.videezy.com/
+Free HD Footage: http://www.free-hd-footage.com
+
+ICONOS
+Entypo: http://entypo.com
+ionicons: http://ionicons.com
+font awesome: https://fontawesome.com
+icon monstr: https://iconmonstr.com
+icon-works: http://icon-works.com
+Twitter Emojis: http://twemoji.maxcdn.com
+Flaticon.com: https://www.flaticon.com
+Icons 8: https://iconos8.es/
+IconFinder, IconFinder es un sitio web para encontrar iconos para nuestros sitios y aplicaciones, tanto gratuitos como de pago.
+Real Favicon Generator: https://realfavicongenerator.net
+Favicon Generator: https://www.favicon-generator.org
+
+
+
+SVG
+https://worldvectorlogo.com/
+
+UX
+Curso Rápido UX en 31 Días: http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals
+Trucos de UI: http://www.goodui.org
+Más de 100 recursos sobre Diseño de UI: https://github.com/tipoqueno/awesome-ui
+
+ISPIRACION
+Site Inspire: https://www.siteinspire.com
+Dribble: https://dribbble.com
+behance: https://www.behance.net
+One Page Love: https://onepagelove.com
+Admire the web: http://www.admiretheweb.com
+Flatdsgn: http://flatdsgn.com
+Colección de elementos de Diseño: http://calltoidea.com
+Más recursos de desarrolladores frontEnd: https://github.com/dypsilon/frontend-dev-bookmarks
+oozled: http://oozled.com
+Awwwards: https://www.awwwards.com
+
+HTLM
+W3School: http://www.w3schools.com/html
+Mozilla Developer Network: https://developer.mozilla.org/es/docs/Web/HTML
+W3C validator: https://validator.w3.org
+Caracteres especiales en HTML: https://css-tricks.com/snippets/html/glyphs/
+
+CSS
+Snippets: https://tympanus.net/codrops/css_reference/
+Selectores de CSS que debes memorizar: https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+Animaciones: https://daneden.github.io/animate.css/
+Patronres: https://freebiesupply.com/blog/css-background-patterns/
+
+DESARROLLO
+Caracterisiticas de Google Chrome que no estas usando: https://www.labnol.org/software/chrome-dev-tools-tutorial/28131/
+El proceso de Diseño web: http://www.newdesigngroup.ca/blog/web-design-process-infographic/
+Usuario Aleatorio: https://randomuser.me
+
+
+OPTIMIZACION DE WEB
+Minimize Image: http://optimizilla.com
+Compress CSS: http://www.minifycss.com/css-compressor/
+Compress Javascript: http://www.minifyjavascript.com
+Vista previa en multiples dispositivos: http://www.responsinator.com
+Google Analytics: https://www.google.com/analytics/
+
+SEO
+Guia de Optimizacion de Google
+WooRank: https://www.woorank.com
+SEO: http://webdesign.tutsplus.com/articles/a-web-designers-seo-checklist-including-portable-formats--webdesign-
+
+TEMPLATES
+Graphberry: https://www.graphberry.com/category/free-html-web-templates
+
+DIAGRAMAS
+Draw.io: https://www.draw.io/
+
