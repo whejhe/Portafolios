@@ -4,11 +4,7 @@ import { techIcons, techUrls } from '../utils/importTechIcons.js';
 import { useTranslation } from "react-i18next";
 
 function Home() {
-    const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+    const { t } = useTranslation();
     return (
         <div className="home-container">
             <Navbar />
@@ -17,7 +13,7 @@ function Home() {
                 <div className="text-container">
                     <h1 className="title">Carlos Fernández González</h1>
                     <p className="parrafo">
-                        Desarrollador Web Apasionado por la Tecnología
+                        {t("titulo-inicio")}
                     </p>
                 </div>
                 <div className="tech-container">
@@ -33,10 +29,6 @@ function Home() {
                     </ul>
                 </div>
                 <div>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('es')}>Español</button>
-      <h1>{t('welcome')}</h1>
-      <p>{t('description')}</p>
     </div>
             </header>
             <div className="space"></div>

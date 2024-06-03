@@ -3,16 +3,29 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 const resources = {
-    en: {
-        translation: {
-            "welcome": "Welcome to my portfolio",
-            "description": "This is an example description."
-        }
-    },
     es: {
         translation: {
-            "welcome": "Bienvenido a mi portafolio",
-            "description": "Esta es una descripción de ejemplo."
+            //nav
+            "inicio": "INICIO",
+            "sobre-mi": "SOBRE MI",
+            "proyectos": "PROYECTOS",
+            "habilidades": "HABILIDADES",
+            "contacto": "CONTACTO",
+            //inicio
+            "titulo-inicio": "Desarrollador Web Apasionado por la Tecnología",
+        }
+    },
+    en: {
+        translation: {
+            //nav
+            "inicio": "HOME",
+            "sobre-mi": "ABOUT ME",
+            "proyectos": "PROJECTS",
+            "habilidades": "SKILLS",
+            "contacto": "CONTACT",
+            //inicio
+            "titulo-inicio": "Web Developer passionate about technology",
+
         }
     }
 };
@@ -22,6 +35,7 @@ i18n
     .init({
         resources,
         lng: "es",
+        fallbackLng: 'es', 
         keySeparator: false,
         interpolation: {
             escapeValue: false
