@@ -12,10 +12,10 @@ function Projects() {
             <div className='space'></div>
             <main className="min-h-screen flex flex-col items-center justify-center p-4">
                 <h2 className="text-3xl font-bold mb-4">Proyectos Destacados</h2>
-                <ul className="ml-8 list-projects">
-                    <li><a href="https://github.com/whejhe/Proyecto-Angular" className="text-blue-500">Proyecto Angular</a></li>
-                    <li><a href="https://github.com/whejhe/Proyecto-Vue" className="text-blue-500">Proyecto Vue</a></li>
-                </ul>
+                <div className="ml-8 list-projects">
+                <a href={imagesProjects[0].url} className="text-blue-500">
+                        <img src={imagesProjects[0].src} alt='portada-vtes'></img></a>      
+                </div>
                 <h3 className="text-2xl font-bold mt-8 mb-4">Páginas Estáticas</h3>
                 <div className="swiper-container">
                 <button>Prev</button>
