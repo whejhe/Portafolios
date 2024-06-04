@@ -13,6 +13,9 @@ const resources = {
             "contacto": "CONTACTO",
             //inicio
             "titulo-inicio": "Desarrollador Web Apasionado por la Tecnología",
+            //Projects
+            "proyectos-destacados": "Proyectos Destacados",
+            "paginas-estaticas": "Páginas Estaticas",
         }
     },
     en: {
@@ -25,6 +28,9 @@ const resources = {
             "contacto": "CONTACT",
             //inicio
             "titulo-inicio": "Web Developer passionate about technology",
+            //Projects
+            "proyectos-destacados": "Featured Projects",
+            "paginas-estaticas": "Static Pages",
 
         }
     }

@@ -3,9 +3,8 @@ import tiendaInformatica from '../assets/image-pages/Portada-Tienda-informatica.
 import utilidades from '../assets/image-pages/Utilidades.png';
 import WebJavaScript from '../assets/image-pages/WebJavaScript.png';
 import wallpaper from '../assets/image-pages/wallpaper.png';
-import Eliseum from '../assets/image-pages/vtes-portada.png';
 
-const imagesProjects = [
+const staticProject = [
     {
         src: apuntesJava,
         alt: 'Portada-Apuntes-Java',
@@ -31,11 +30,6 @@ const imagesProjects = [
         alt: 'wallpaper',
         url: 'https://whejhe.github.io/slider-wallpaper/index.html'
     },
-    {
-        src: Eliseum,
-        alt: 'Eliseum',
-        url: 'https://front-vtes.vercel.app/'
-    }
 ];
 
-export default imagesProjects;
+export default staticProject;

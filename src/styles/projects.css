@@ -1,17 +1,22 @@
 .swiper-container{
     display: flex;
     border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 2px 1px rgb(248, 121, 2), 1px 2px 1px 1px rgb(255, 255, 255);
     width: 90%;
-    margin: auto;
+    margin: 0 auto 3em auto;
+}
+
+.container-projects{
+    overflow-y: scroll;
 }
 
 .article{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
-    box-shadow: 10px 10px 10px;
     background-color: aliceblue;
-    height: 290px;
-    width: 400px;
+    height: 200px;
+    width: fit-content;
+    margin: 1em;
 }
 .article:hover{
     outline: 2px solid rgb(66, 12, 12);
@@ -28,10 +33,21 @@
 }
 
 .list-projects .images-projects{
-    height: 240px;
-    width: 390px;
+    height: 200px;
+    width: auto;
     margin: auto;
     overflow: hidden;
     align-items: center;
     display: block;
+}
+
+.button-slider{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    opacity: 0.8;
+}
+.button-slider:hover{
+    opacity: 1;
 }
