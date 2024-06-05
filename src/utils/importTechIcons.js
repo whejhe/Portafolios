@@ -8,7 +8,6 @@ import html from '../assets/icons/html-icon.png';
 import ionic from '../assets/icons/ionic-icon.png';
 import java from '../assets/icons/java-icon.png';
 import javascript from '../assets/icons/javascrit-icon.png';
-import maven from '../assets/icons/maven-icon.png';
 import mongo from '../assets/icons/mongo-icon.png';
 import photoshop from '../assets/icons/photoshop-icon.png';
 import react from '../assets/icons/react-icon.png';
@@ -29,7 +28,6 @@ const techIcons = {
     'ionic-icon.png': ionic,
     'java-icon.png': java,
     'javascrit-icon.png': javascript,
-    'maven-icon.png': maven,
     'mongo-icon.png': mongo,
     'photoshop-icon.png': photoshop,
     'react-icon.png': react,
@@ -50,7 +48,6 @@ const techUrls = {
     'ionic-icon.png': 'https://ionicframework.com/',
     'java-icon.png': 'https://www.java.com/',
     'javascrit-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    'maven-icon.png': 'https://maven.apache.org/',
     'mongo-icon.png': 'https://www.mongodb.com/',
     'photoshop-icon.png': 'https://www.adobe.com/products/photoshop.html',
     'react-icon.png': 'https://es.react.dev/',

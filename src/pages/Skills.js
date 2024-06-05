@@ -15,7 +15,6 @@ function Skills() {
                         <li className='item-skills'>Frameworks: Angular, Vue.js, React, Express.js</li>
                         <li className='item-skills'>Sistemas operativos: Windows, Linux</li>
                         <li className='item-skills'>Otras aplicaciones: Photoshop, docker, git, github</li>
-                        <li className='item-skills'>Mantenimiento y resolución de problemas en hardware y software</li>
                     </ul>
             </main>
             <div className='space'></div>
