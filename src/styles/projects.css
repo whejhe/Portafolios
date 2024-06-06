@@ -1,13 +1,22 @@
+.projects-container{
+    background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.projects-container h2{
+    padding-top: 1em;
+    text-align: center;
+}
+
 .swiper-container{
     display: flex;
     border: 2px solid whitesmoke;
     box-shadow: 1px 1px 2px 1px rgb(248, 121, 2), 1px 2px 1px 1px rgb(255, 255, 255);
     width: 90%;
     margin: 0 auto 3em auto;
-}
-
-.container-projects{
-    overflow-y: scroll;
 }
 
 .article{

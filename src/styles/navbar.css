@@ -2,7 +2,8 @@
     position: sticky;
     top: 0;
     border-bottom: 3px solid  rgb(39, 39, 39);
-    background-color: #040E1B;
+    background: -webkit-linear-gradient(to right, #000000, #70440ace);
+    background: linear-gradient(to right,#70440ace, #000000);
     /* background: -webkit-linear-gradient(to right, #061736, #211b64, #0f0c29);
     background: linear-gradient(to right, #061736, #211b64, #0f0c29); */
     z-index: 5;

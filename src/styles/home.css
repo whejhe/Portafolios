@@ -1,27 +1,19 @@
 /*src/styles/home.css*/
 .home-container{
-    /* background-color: #040D1F; */
-}
-
-.space{
-    height: 11vh;
-    background-color: #040D1F;
-    z-index: 10;
+    height: 100vh;
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header{
-    background-color: #061736;
-    /* background: -webkit-linear-gradient(to right, #061736, #211b64, #0f0c29);
-    background: linear-gradient(to right, #061736, #211b64, #0f0c29); */
-
-    border: 2px solid rgb(39, 39, 39);
     width: 100%;
     margin: auto;
-    height: 70vh;
     .title{
         text-align: center;
         width: fit-content;
-        margin: 2em auto 0.5em auto;
+        margin: auto;
+        padding-top: 3em;
         z-index: 4;
     }
     .parrafo{
