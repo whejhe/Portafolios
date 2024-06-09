@@ -12,11 +12,11 @@ export default function Navbar() {
     return (
         <nav className="p-4 text-white nav-layout">
             <ul className="flex space-x-4 ul-nav">
-                <li className='link-nav'><a href="/">{t('inicio')}</a></li>
-                <li className='link-nav'><a href="/about">{t('sobre-mi')}</a></li>
-                <li className='link-nav'><a href="/projects">{t('proyectos')}</a></li>
-                <li className='link-nav'><a href="/skills">{t('habilidades')}</a></li>
-                <li className='link-nav'><a href="/contact">{t('contacto')}</a></li>
+                <li className='link-nav'><a href="#home-container">{t('inicio')}</a></li>
+                <li className='link-nav'><a href="#about-container">{t('sobre-mi')}</a></li>
+                <li className='link-nav'><a href="#projects-container">{t('proyectos')}</a></li>
+                <li className='link-nav'><a href="#skills-container">{t('habilidades')}</a></li>
+                <li className='link-nav'><a href="#contact-container">{t('contacto')}</a></li>
             </ul>
             <div className='translate'
                 onClick={() => changeLanguage(i18n.language === 'es' ? 'en' : 'es')}>

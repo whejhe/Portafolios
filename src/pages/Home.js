@@ -16,7 +16,7 @@ function App() {
             <Navbar />
 
             {/* HOME */}
-            <div className="home-container">
+            <div id="home-container" className="home-container section">
                 <header className="flex flex-col">
                     <div className="text-container">
                         <h1 className="title">Carlos Fernández González</h1>
@@ -35,11 +35,10 @@ function App() {
                         </ul>
                     </div>
                 </header>
-                <div className="space"></div>
             </div>
 
             {/* ABOUT */}
-            <div className='about-container'>
+            <div id="about-container" className='about-container section'>
                 <main className="min-h-screen flex flex-col items-center justify-center p-4">
                     <div className='container-main'>
                         <h2 className="text-3xl font-bold mb-4">{t("sobre-mi")}</h2>
@@ -56,7 +55,7 @@ function App() {
             </div>
 
             {/* SKILLS */}
-            <div className='skills-container'>
+            <div id="skills-container" className='skills-container section'>
                 <main className="min-h-screen flex flex-col items-center justify-center p-4">
                     <h2 className="text-3xl font-bold mb-4">Habilidades Técnicas</h2>
                     <ul className="list-skills ml-8">
@@ -71,7 +70,7 @@ function App() {
             </div>
 
             {/* PROJECTS */}
-            <div className="projects-container">
+            <div id="projects-container" className="projects-container section">
                 <h2 className="text-3xl font-bold mb-4">{t('proyectos-destacados')}</h2>
                 <div className="swiper-container">
                     <img className='button-slider' src={otherIcons['prev.png']} alt='prev'></img>
@@ -124,7 +123,7 @@ function App() {
             </div>
 
             {/* CONTACT */}
-            <div className="contact-container">
+            <div id="contact-container" className="contact-container section">
                 <main className="min-h-screen flex flex-col items-center justify-center p-4">
                     <h2 className="mb-6 title-contact">Contact Me</h2>
                     <form>

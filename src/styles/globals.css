@@ -1,5 +1,12 @@
 body{
-    /* background-color: #70440ace; */
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#1d1d1d, #3a3535);
+    background: linear-gradient(to right,#1d1d1d, #3a3535); 
+}
+
+.section {
+    padding-top: 7vh; /* Ajusta según sea necesario */
+    margin-top: 7vh; /* Compensa el padding-top */
 }
 
 
