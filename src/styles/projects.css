@@ -1,22 +1,22 @@
-.projects-container{
+.projects-container {
     height: 95vh;
 }
 
-
-.projects-container h2{
+.projects-container h2 {
     padding-top: 1em;
     text-align: center;
 }
 
-.swiper-container{
+.swiper-container {
     display: flex;
     border: 2px solid whitesmoke;
-    box-shadow: 1px 1px 2px 1px rgb(248, 121, 2), 1px 2px 1px 1px rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 1px rgb(248, 121, 2),
+        1px 2px 1px 1px rgb(255, 255, 255);
     width: 90%;
     margin: 0 auto 3em auto;
 }
 
-.article{
+.article {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
     background-color: aliceblue;
@@ -24,21 +24,23 @@
     width: fit-content;
     margin: 1em;
 }
-.article:hover{
+
+.article:hover {
     outline: 2px solid rgb(66, 12, 12);
-    img{
+
+    img {
         opacity: 0.8;
     }
 }
 
-.list-projects{
+.list-projects {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     width: 80%;
 }
 
-.list-projects .images-projects{
+.list-projects .images-projects {
     height: 200px;
     width: auto;
     margin: auto;
@@ -47,13 +49,71 @@
     display: block;
 }
 
-.button-slider{
+.button-slider {
     width: 60px;
     height: 60px;
     margin: auto;
     display: block;
     opacity: 0.8;
 }
-.button-slider:hover{
+
+.button-slider:hover {
     opacity: 1;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.project-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
 }
