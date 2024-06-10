@@ -5,15 +5,19 @@ import utilidades from '../assets/image-pages/Utilidades.png';
 import WebJavaScript from '../assets/image-pages/WebJavaScript.png';
 import wallpaper from '../assets/image-pages/wallpaper.png';
 
+import htmlIcon from '../assets/icons/html-icon.png';
+import cssIcon from '../assets/icons/css-icon.png';
+import javascriptIcon from '../assets/icons/javascrit-icon.png';
+
 const staticProject = [
     {
         src: apuntesJava,
         alt: 'Portada-Apuntes-Java',
         description:'',
         icons: {
-            'html-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-            'css-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-            'javascript-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+            html: htmlIcon,
+            css: cssIcon,
+            javascript: javascriptIcon
         },
         url: 'https://whejhe.github.io/ApuntesJava/index.html'
     },
@@ -22,9 +26,9 @@ const staticProject = [
         alt: 'Portada-Tienda-informatica',
         description:'',
         icons: {
-            'html-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-            'css-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-            'javascript-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+            html: htmlIcon,
+            css: cssIcon,
+            javascript: javascriptIcon
         },
         url: 'https://whejhe.github.io/Tienda%20Informatica/index.html'
     },
@@ -33,9 +37,9 @@ const staticProject = [
         alt: 'Utilidades',
         description:'',
         icons: {
-            'html-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-            'css-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-            'javascript-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+            html: htmlIcon,
+            css: cssIcon,
+            javascript: javascriptIcon
         },
         url: 'https://whejhe.github.io/Utilidades/index.html'
     },
@@ -44,9 +48,9 @@ const staticProject = [
         alt: 'WebJavaScript',
         description:'',
         icons: {
-            'html-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-            'css-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-            'javascript-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+            html: htmlIcon,
+            css: cssIcon,
+            javascript: javascriptIcon
         },
         url: 'https://whejhe.github.io/Web-Ejercicios-JavaScriptt/index.html'
     },
@@ -55,12 +59,14 @@ const staticProject = [
         alt: 'wallpaper',
         description:'',
         icons: {
-            'html-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-            'css-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-            'javascript-icon.png': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+            html: htmlIcon,
+            css: cssIcon,
+            javascript: javascriptIcon
         },
         url: 'https://whejhe.github.io/slider-wallpaper/index.html'
     },
 ];
+
+
 
 export default staticProject;

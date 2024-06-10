@@ -68,6 +68,7 @@ function App() {
 
             {/* PROJECTS */}
             <div id="projects-container" className="projects-container section">
+                <h3 className="title">{t("paginas-estaticas")}</h3>
                 <ListStaticProject></ListStaticProject>
             </div>
 
