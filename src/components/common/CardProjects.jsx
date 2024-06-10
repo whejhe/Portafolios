@@ -9,12 +9,12 @@ const TajetaProjectos = ({ project }) => {
             </a>
             <div className="project-content">
                 <h4>{project.alt}</h4>
-                <p>{project.description}</p>
                 <div className="project-icons">
                     {Object.entries(project.icons).map(([key, iconSrc]) => (
-                            <img key={key} src={iconSrc} alt={key} />
-                    ))}
+                        <img key={key} src={iconSrc} alt={key} />
+                        ))}
                 </div>
+                <p>{project.description}</p>
             </div>
         </div>
     );

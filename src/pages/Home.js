@@ -2,6 +2,7 @@
 import React from "react";
 import Navbar from "../components/layout/Navbar.js";
 import ListStaticProject from '../components/common/ListStaticProject.jsx';
+import ListOfProjects from '../components/common/ListOfProjects.jsx';
 import { techIcons, techUrls } from '../utils/importTechIcons.js';
 import { useTranslation } from "react-i18next";
 import 'swiper/css';
@@ -68,8 +69,16 @@ function App() {
 
             {/* PROJECTS */}
             <div id="projects-container" className="projects-container section">
-                <h3 className="title">{t("paginas-estaticas")}</h3>
-                <ListStaticProject></ListStaticProject>
+                
+                <div className="destacados">
+                    <h3 className="title">{t("proyectos-destacados")}</h3>
+                    <ListOfProjects></ListOfProjects>
+                </div>
+                
+                <div className="others">
+                    <h3 className="title">{t("paginas-estaticas")}</h3>
+                    <ListStaticProject></ListStaticProject>
+                </div>
             </div>
 
             {/* CONTACT */}

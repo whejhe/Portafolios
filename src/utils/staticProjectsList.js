@@ -13,7 +13,7 @@ const staticProject = [
     {
         src: apuntesJava,
         alt: 'Portada-Apuntes-Java',
-        description:'',
+        description:'Trabajo de clase de 1º DAW',
         icons: {
             html: htmlIcon,
             css: cssIcon,
@@ -24,7 +24,7 @@ const staticProject = [
     {
         src: tiendaInformatica,
         alt: 'Portada-Tienda-informatica',
-        description:'',
+        description:'Trabajo de Clase en el Grado medio de MicroInformatica y Redes',
         icons: {
             html: htmlIcon,
             css: cssIcon,
@@ -35,7 +35,7 @@ const staticProject = [
     {
         src: utilidades,
         alt: 'Utilidades',
-        description:'',
+        description:'Conjunto de Utilidades para diseños de componentes',
         icons: {
             html: htmlIcon,
             css: cssIcon,
@@ -46,7 +46,7 @@ const staticProject = [
     {
         src: WebJavaScript,
         alt: 'WebJavaScript',
-        description:'',
+        description:'Practica de Clase de 2º DAW',
         icons: {
             html: htmlIcon,
             css: cssIcon,
@@ -57,7 +57,7 @@ const staticProject = [
     {
         src: wallpaper,
         alt: 'wallpaper',
-        description:'',
+        description:'Practica de slider de imagenes',
         icons: {
             html: htmlIcon,
             css: cssIcon,

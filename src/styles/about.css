@@ -1,13 +1,11 @@
 .about-container{
-    height: 95vh;
+    margin-top: 5em;
+    min-height: 95vh;
 }
 
 main{
-    /* background-color: #061736; */
-    /* border: 2px solid rgb(39, 39, 39); */
     width: 100%;
     margin: auto;
-    height: 70vh;
 }
 
 .container-main{

@@ -1,5 +1,5 @@
 .projects-container {
-    height: 95vh;
+    height: auto;
 }
 
 .projects-container h2 {
@@ -67,6 +67,11 @@
     margin-top: 0.2em;
 }
 
+.projects-container p{
+    text-align: center;
+    margin: 0.3em;
+}
+
 .project-icons {
     display: flex;
     justify-content: center;
@@ -81,4 +86,8 @@
 
 .project-link:hover {
     background-color: #0056b3;
+}
+
+.destacados, .others{
+    padding-top: 3em;
 }

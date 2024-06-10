@@ -1,4 +1,5 @@
 /*src/index.css*/
+@import './styles/reset.css';
 @import './styles/globals.css';
 @import './styles/navbar.css';
 

@@ -15,7 +15,7 @@ import spring from '../assets/icons/spring-icon.png';
 import sql from '../assets/icons/sql-icon.png';
 import vscode from '../assets/icons/vscode-icon.png';
 import vue from '../assets/icons/vue-icon.png';
-
+import express from '../assets/icons/express.png';
 
 
 const techIcons = {
@@ -34,7 +34,8 @@ const techIcons = {
     'spring-icon.png': spring,
     'sql-icon.png': sql,
     'vscode-icon.png': vscode,
-    'vue-icon.png': vue
+    'vue-icon.png': vue,
+    'express.png': express
     // Añade todos tus íconos aquí
 };
 
@@ -54,7 +55,8 @@ const techUrls = {
     'spring-icon.png': 'https://spring.io/',
     'sql-icon.png': 'https://www.mysql.com/',
     'vscode-icon.png': 'https://code.visualstudio.com/',
-    'vue-icon.png': 'https://vuejs.org/'
+    'vue-icon.png': 'https://vuejs.org/',
+    'express.png': 'https://expressjs.com/'
 };
 
 export { techIcons, techUrls };
