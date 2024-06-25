@@ -32,3 +32,15 @@ p{
 button{
     background-color: orangered;
 }
+.profile-image-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+}
+    

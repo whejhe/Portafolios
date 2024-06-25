@@ -5,6 +5,7 @@ import ListStaticProject from '../components/common/ListStaticProject.jsx';
 import ListOfProjects from '../components/common/ListOfProjects.jsx';
 import { techIcons, techUrls } from '../utils/importTechIcons.js';
 import { useTranslation } from "react-i18next";
+import perfilImage from '../assets/others/Perfil.png';
 import 'swiper/css';
 function App() {
     const { t } = useTranslation();
@@ -18,6 +19,9 @@ function App() {
                     <div className="text-container">
                         <h1 className="title">Carlos Fernández González</h1>
                         <p className="parrafo">{t("titulo-inicio")}</p>
+                    </div>
+                    <div className="profile-image-container">
+                        <img className="profile-image" src={perfilImage} profile alt="profile"></img>
                     </div>
                     <div className="tech-container">
                         <h2>&lt;Tech./&gt;</h2>

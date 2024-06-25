@@ -1,6 +1,7 @@
 /*src/styles/home.css*/
 .home-container{
     padding-bottom: 5em;
+    margin-top: -5em;
 }
 
 header{
