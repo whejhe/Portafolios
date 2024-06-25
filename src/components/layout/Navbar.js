@@ -20,7 +20,7 @@ export default function Navbar() {
             </ul>
             <div className='translate'
                 onClick={() => changeLanguage(i18n.language === 'es' ? 'en' : 'es')}>
-                <img src={i18n.language === 'es' ? spanishFlag : englishFlag} alt="" />
+                <img className='icons' src={i18n.language === 'es' ? spanishFlag : englishFlag} alt="" />
             </div>
             <h1>CFG.</h1>
         </nav>

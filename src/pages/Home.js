@@ -12,7 +12,6 @@ function App() {
     return (
         <div>
             <Navbar />
-
             {/* HOME */}
             <div id="home-container" className="home-container section">
                 <header className="flex flex-col">
@@ -60,7 +59,7 @@ function App() {
                         <li className='item-skills'>Lenguajes de programación: HTML, CSS, Java, JavaScript, TypeScript</li>
                         <li className='item-skills'>Herramientas de desarrollo web: Eclipse, Apache NetBean, Visual Studio Code</li>
                         <li className='item-skills'>Gestión de bases de datos: MySQL, Microsoft SQL Server, MongoDB</li>
-                        <li className='item-skills'>Frameworks: Angular, Vue.js, React, Express.js</li>
+                        <li className='item-skills'>Frameworks: Spring Boot, Angular, Vue.js, React, Express.js</li>
                         <li className='item-skills'>Sistemas operativos: Windows, Linux</li>
                         <li className='item-skills'>Otras aplicaciones: Photoshop, docker, git, github</li>
                     </ul>
@@ -83,52 +82,12 @@ function App() {
 
             {/* CONTACT */}
             <div id="contact-container" className="contact-container section">
-                <main className="min-h-screen flex flex-col items-center justify-center p-4">
-                    <h2 className="mb-6 title-contact">Contact Me</h2>
-                    <form>
-                        <div className="row mb-4 container-item">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-                                Name
-                            </label>
-                            <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                id="name"
-                                type="text"
-                                placeholder="Your Name"
-                            />
-                        </div>
-                        <div className="row mb-4 container-item">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                Email
-                            </label>
-                            <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                id="email"
-                                type="email"
-                                placeholder="Your Email"
-                            />
-                        </div>
-                        <div className="row mb-6 container-item">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
-                                Message
-                            </label>
-                            <textarea
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                id="message"
-                                rows="5"
-                                placeholder="Your Message"
-                            ></textarea>
-                        </div>
-                        <div className="row flex items-center justify-between container-item">
-                            <button
-                                className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                                type="button"
-                            >
-                                Send
-                            </button>
-                        </div>
-                    </form>
-                </main>
+                <h2>{t("contacto")}:</h2>
+               <ul>
+               <li>Email: <a target="_blank" rel="noreferrer" href="mailto:c6rlosfern6ndez@gmail.com">c6rlosfern6ndez@gmail.com</a></li>
+                <li>GitHub: <a target="_blank" rel="noreferrer" href="https://github.com/whejhe">https://github.com/whejhe</a></li>
+                <li>LinkedIn: <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlos-fernandez-gonzalez-a1025b263/">https://www.linkedin.com/in/carlos-fernandez-gonzalez</a></li>
+               </ul>
             </div>
 
 

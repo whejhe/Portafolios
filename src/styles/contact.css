@@ -1,22 +1,17 @@
 .contact-container{
-}
-
-.title-contact{
-    text-align: center;
-}
-
-form{
-    border: 2px solid whitesmoke;
+    width: 80%;
+    margin: 3em auto;
     border-radius: 8px;
-    padding: 2em;
-    width: 70%;
-    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 3em;
+    h2{
+        text-align: center;
+    }
+    ul{
+        margin-top: 2em;
+    }
+    li{
+        color: whitesmoke;
+    }
 }
 
-.container-item{
-    display: flex;
-    flex-wrap: wrap;
-}
-label{
-    color: whitesmoke;
-}
