@@ -2,7 +2,7 @@
     width: 80%;
     margin: 3em auto;
     border-radius: 8px;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgba(245, 245, 245, 0.226);
     padding: 3em;
     h2{
         text-align: center;

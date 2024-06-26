@@ -4,6 +4,7 @@ import tiendaInformatica from '../assets/image-pages/Portada-Tienda-informatica.
 import utilidades from '../assets/image-pages/Utilidades.png';
 import WebJavaScript from '../assets/image-pages/WebJavaScript.png';
 import wallpaper from '../assets/image-pages/wallpaper.png';
+import pokemon from '../assets/image-pages/pokemon.png';
 
 import htmlIcon from '../assets/icons/html-icon.png';
 import cssIcon from '../assets/icons/css-icon.png';
@@ -65,6 +66,17 @@ const staticProject = [
         },
         url: 'https://whejhe.github.io/slider-wallpaper/index.html'
     },
+    {
+        src: pokemon,
+        alt: 'pokemonApi',
+        description:'Practica de Clase para Api de Pokemon con javascript vanilla',
+        icons: {
+            html: htmlIcon,
+            css: cssIcon,
+            javascript: javascriptIcon
+        },
+        url: 'https://whejhe.github.io/Pokemon/index.html'
+    }
 ];
 
 

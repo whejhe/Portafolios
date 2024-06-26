@@ -58,14 +58,14 @@ function App() {
             {/* SKILLS */}
             <div id="skills-container" className='skills-container section'>
                 <main className="min-h-screen flex flex-col items-center justify-center p-4">
-                    <h2 className="text-3xl font-bold mb-4">Habilidades Técnicas</h2>
+                    <h2 className="text-3xl font-bold mb-4">{t("skills-title")}</h2>
                     <ul className="list-skills ml-8">
-                        <li className='item-skills'>Lenguajes de programación: HTML, CSS, Java, JavaScript, TypeScript</li>
-                        <li className='item-skills'>Herramientas de desarrollo web: Eclipse, Apache NetBean, Visual Studio Code</li>
-                        <li className='item-skills'>Gestión de bases de datos: MySQL, Microsoft SQL Server, MongoDB</li>
+                        <li className='item-skills'>{t("programacion")} HTML, CSS, Java, JavaScript, TypeScript</li>
+                        <li className='item-skills'>{t("herramientas")} Eclipse, Apache NetBean, Visual Studio Code</li>
+                        <li className='item-skills'>{t("bbdd")} MySQL, Microsoft SQL Server, MongoDB</li>
                         <li className='item-skills'>Frameworks: Spring Boot, Angular, Vue.js, React, Express.js</li>
-                        <li className='item-skills'>Sistemas operativos: Windows, Linux</li>
-                        <li className='item-skills'>Otras aplicaciones: Photoshop, docker, git, github</li>
+                        <li className='item-skills'>{t("sistemas")} Windows, Linux</li>
+                        <li className='item-skills'>{t("others")} Photoshop, docker, git, github</li>
                     </ul>
                 </main>
             </div>
